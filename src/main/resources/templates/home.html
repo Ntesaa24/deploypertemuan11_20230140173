@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Home</h1>
+
+<p>
+    username:
+    <span th:text="${user.username}"></span>
+</p>
+
+<p>
+    Nama:
+    <span th:text="${profile.alamat}"></span>
+</p>
+
+<a th:href="@{/logout}">
+    Logout
+</a>
+</body>
+</html>
